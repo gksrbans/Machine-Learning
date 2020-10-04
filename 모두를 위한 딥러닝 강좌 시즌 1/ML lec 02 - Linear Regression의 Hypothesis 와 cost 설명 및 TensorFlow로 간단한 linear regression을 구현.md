@@ -186,6 +186,3 @@ for step in range(2001):
              feed_dict={x: [1, 2, 3], y: [1, 2, 3]})
   if step % 20 == 0: print(step, cost_val, W_val, b_val)
 ```
-
-
-
